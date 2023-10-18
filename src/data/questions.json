@@ -1,0 +1,180 @@
+    {
+        "Institucional": [
+            {
+                "title": "A atual identidade visual da Pfizer acompanha um logo formado por duas hélices de DNA, espiralando para cima. As duas formas interligadas representam a paixão e dedicação à ciência por trás de nossas soluções e ao bem-estar de nossos pacientes, consolidando nosso compromisso com a inovação.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":36,
+                "label":"Perguntas institucionais"
+            },
+            {
+                "title": "A Pfizer está presente no Brasil desde 1955.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 0,
+                "points":36,
+                "label":"Perguntas institucionais"
+            },
+            {
+                "title": "Na Pfizer Brasil existem 8 unidades terapêuticas.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 0,
+                "points":36,
+                "label":"Perguntas institucionais"
+            },
+            {
+                "title": "O Bold Move 3.3 consiste em transformar a maneira como nos engajamos com pacientes e com os médicos.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":36,
+                "label":"Perguntas institucionais"
+            },
+            {
+                "title": "Os valores da Pfizer são: Coragem, Alegria, Excelência e Equidade.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":36,
+                "label":"Perguntas institucionais"
+            }
+        ],
+        "pneumonia": [
+            {
+                "title": "A Bacteria Pneumococo que causa a pneumonia em crianças, também pode causar Meningite.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":19,
+                "label":"Perguntas sobre Pneumonia"
+            },
+            {
+                "title": "Dia 12/11 foi celebrado o Dia Mundial do Combate à Pneumonia. Sabe-se que essa é uma doença grave que mata mais de 400 pessoas por semana (considerando todos os tipos de pneumonia).",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":19,
+                "label":"Perguntas sobre Pneumonia"
+            },
+            {
+                "title": "A criança pode transmitir pneumonia bacteriana para o idoso.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":19,
+                "label":"Perguntas sobre Pneumonia"
+            },
+            {
+                "title": "Brasil é um dos únicos países da América Latina onde a Prevenar não faz parte do Programa Nacional de Imunização para Criança.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 0,
+                "points":19,
+                "label":"Perguntas sobre Pneumonia"
+            }
+        ],
+        "Meningo": [
+            {
+                "title": "A doença meningocócica pode ocorrer em qualquer idade.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":26,
+                "label":"Perguntas sobre Meningite"
+            },
+            {
+                "title": "Os adolescentes e jovens adultos são os maiores portadores da bactéria que causa a doença meningocócica.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":26,
+                "label":"Perguntas sobre Meningite"
+            },
+            {
+                "title": "A aplicação de doses de reforço aos 5 anos de idade e durante a adolescência são recomendadas pela Sociedade Brasileira de Pediatria.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":26,
+                "label":"Perguntas sobre Meningite"
+            },
+            {
+                "title": "A doença meningocócica causada pelo sorogrupo B é mais comum no Brasil?",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 0,
+                "points":26,
+                "label":"Perguntas sobre Meningite"
+            }
+        ],
+        "covid": [
+            {
+                "title": "Usar corretamente  máscaras adequadas reduzem as chances de pegar COVID-19, mas pode não impedir totalmente a transmissão do vírus.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 1,
+                "points":16,
+                "label":"Perguntas sobre COVID-19"
+            },
+            {
+                "title": "A imunidade conferida pela doença COVID-19 é tão alta quanto pela vacina, não sendo necessárias doses de reforços em quem já recebeu 2 doses e teve COVID-19.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 0,
+                "points":16,
+                "label":"Perguntas sobre COVID-19"
+            },
+            {
+                "title": "Crianças tem menos doença por COVID-19 do que adultos e não são impactadas por efeitos a longo prazo da doença.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 0,
+                "points":16,
+                "label":"Perguntas sobre COVID-19"
+            },
+            {
+                "title": "Sabemos que a proteção pela vacina original diminui ao longo do tempo e a resposta para variantes Ômicron em circulação é menor. Portanto, para aqueles que ainda não tomaram as doses de reforço, a melhor conduta é esperar que as vacinas bivalentes cheguem no Brasil.",
+                "options": [
+                    "MITO",
+                    "VERDADE"
+                ],
+                "correctOptionIndex": 0,
+                "points":16,
+                "label":"Perguntas sobre COVID-19"
+            }
+        ]
+    }

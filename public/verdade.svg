@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="496.957" height="236.06" viewBox="0 0 496.957 236.06">
+  <defs>
+    <filter id="Caminho_2" x="0" y="0" width="496.957" height="236.06" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="17" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur"/>
+      <feFlood flood-color="#043673" flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_37" data-name="Grupo 37" transform="translate(-486.505 -1027.743)">
+    <g transform="matrix(1, 0, 0, 1, 486.51, 1027.74)" filter="url(#Caminho_2)">
+      <path id="Caminho_2-2" data-name="Caminho 2" d="M446.11,1192.541l74.5-173.06H161.147l-74.5,173.06Z" transform="translate(-62.15 -1004.98)" fill="#043673"/>
+    </g>
+    <text id="Button" transform="translate(713.937 1187.673)" fill="#fff" font-size="47" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="-123" y="0">VERDADE</tspan></text>
+    <g id="Grupo_40" data-name="Grupo 40" transform="translate(-610.398 327.449)">
+      <line id="Linha_136" data-name="Linha 136" y2="33.466" transform="translate(1324.214 767.858)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Caminho_9559" data-name="Caminho 9559" d="M1334.389,801.291h25.063a7.994,7.994,0,0,0,7.9-6.77l3.783-24.415a7.759,7.759,0,0,0-7.668-8.948h-18.129V746.675a7.861,7.861,0,0,0-7.861-7.861h-.117a4.245,4.245,0,0,0-4.192,3.569h0a74.9,74.9,0,0,1-6.585,20.649l-2.337,4.794h-13.724a4.985,4.985,0,0,0-4.985,4.985v23.5a4.985,4.985,0,0,0,4.985,4.983h13.693" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+  </g>
+</svg>
