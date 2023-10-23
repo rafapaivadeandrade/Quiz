@@ -1,15 +1,15 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 export const MainGrid = styled.main`
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 0.5fr 2fr 1fr;
-  grid-template-areas: 'container container container';
+  grid-template-areas: "container container container";
   /* background: ${({ theme }) => theme.background}; */
   overflow: hidden;
   /* background: black url('/bg.svg') no-repeat; */
-`;
+`
 
 export const LogoContainer = styled.aside`
   grid-area: container;
@@ -20,7 +20,7 @@ export const LogoContainer = styled.aside`
   img {
     /* margin-top: 256px; */
     /* margin-left: 211px; */
-    width:  400px;
+    width: 400px;
     height: 400px;
     margin: 0;
     position: absolute;
@@ -30,21 +30,21 @@ export const LogoContainer = styled.aside`
     transform: translate(-50%, -50%);
   }
 
-  div{
+  div {
     color: #fff;
     margin: 0;
     display: flex;
     position: absolute;
     top: 80%;
     left: 45%;
-    cursor:  pointer;
-    svg{
+    cursor: pointer;
+    svg {
       margin-left: -70px;
       margin-top: -30px;
-      transform: scale(3.0);
+      transform: scale(3);
     }
   }
-`;
+`
 
 export const Login = styled.div`
   display: flex;
@@ -81,4 +81,4 @@ export const Login = styled.div`
     color: #000000;
     opacity: 1;
   }
-`;
+`

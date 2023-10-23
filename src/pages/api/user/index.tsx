@@ -22,9 +22,11 @@ const updateUserSchema = z.object({
 })
 
 const handler = nc<NextApiRequest, NextApiResponse>()
-  .get(async (req: NextApiRequest, res: NextApiResponse) => {
+  .get(async (_: NextApiRequest, res: NextApiResponse) => {
     try {
-      const users = await prisma.user.findMany()
+      const users = await prisma.user.findMany({
+        orderBy: [{ points: "desc" }, { durationAction: "asc" }],
+      })
       return res.status(201).json(users)
     } catch (error) {
       return res.status(500).json({ message: "Internal Server Error" })
@@ -77,7 +79,6 @@ const handler = nc<NextApiRequest, NextApiResponse>()
           durationAction: requestData.duration_action,
         },
       })
-
       return res.status(200).json(updatedUser)
     } catch (error) {
       return res.status(500).json({ message: "Internal Server Error" })
