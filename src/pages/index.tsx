@@ -1,14 +1,6 @@
 import React from "react"
 import type { NextPage } from "next"
-import {
-  ContainerFormModal,
-  FormBackground,
-  StartButton,
-  RulesDiv,
-  HomeLogoContainer,
-  MainGrid,
-} from "../components/FormBackground"
-import { ContainerModal } from "../components/Modal/styles"
+import { HomeLogoContainer, MainGrid } from "../components/FormBackground"
 import { useRouter } from "next/router"
 import { FaSpinner } from "react-icons/fa"
 import { BsHandIndexThumb } from "react-icons/bs"
@@ -68,14 +60,14 @@ const Home: NextPage = () => {
         router.push(`/register`)
       }}
     >
-      <HomeLogoContainer>
+      <HomeLogoContainer loading={loading}>
         <video autoPlay loop muted>
           <source src={"./bg_game.mp4"} type="video/mp4"></source>
         </video>
         <img src="/logo.png" />
         <div>
           {loading ? (
-            <div style={{ marginLeft: "150px" }}>
+            <div>
               <Spinner size={30} />
             </div>
           ) : (

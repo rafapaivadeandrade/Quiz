@@ -33,7 +33,7 @@ function Question({ question, setAnswer, currentQuestionIndex }) {
   }
 
   useEffect(() => {
-    setSeconds(10)
+    setSeconds(60)
     time.current = setInterval(() => {
       setSeconds(second => {
         const newSecond = second - 1
@@ -96,7 +96,7 @@ function Question({ question, setAnswer, currentQuestionIndex }) {
                     key={index}
                     onClick={() => goToNextQuestion(index)}
                   >
-                    {option === "MITO" ? (
+                    {option === "MYTH" ? (
                       <img src="/like.svg" />
                     ) : (
                       <img src="/notlike.svg" />

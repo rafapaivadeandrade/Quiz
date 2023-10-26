@@ -78,7 +78,7 @@ export default function Ranking(props: any) {
                 }}
               >
                 <button type="submit">
-                  <span style={{ fontSize: "44px" }}>{"INÍCIO"}</span>
+                  <span style={{ fontSize: "44px" }}>{"BEGINNING"}</span>
                 </button>
               </FormButton>
             )}

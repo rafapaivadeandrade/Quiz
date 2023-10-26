@@ -1,180 +1,129 @@
+{
+  "Institucional": [
     {
-        "Institucional": [
-            {
-                "title": "A atual identidade visual da Pfizer acompanha um logo formado por duas hélices de DNA, espiralando para cima. As duas formas interligadas representam a paixão e dedicação à ciência por trás de nossas soluções e ao bem-estar de nossos pacientes, consolidando nosso compromisso com a inovação.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":36,
-                "label":"Perguntas institucionais"
-            },
-            {
-                "title": "A Pfizer está presente no Brasil desde 1955.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 0,
-                "points":36,
-                "label":"Perguntas institucionais"
-            },
-            {
-                "title": "Na Pfizer Brasil existem 8 unidades terapêuticas.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 0,
-                "points":36,
-                "label":"Perguntas institucionais"
-            },
-            {
-                "title": "O Bold Move 3.3 consiste em transformar a maneira como nos engajamos com pacientes e com os médicos.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":36,
-                "label":"Perguntas institucionais"
-            },
-            {
-                "title": "Os valores da Pfizer são: Coragem, Alegria, Excelência e Equidade.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":36,
-                "label":"Perguntas institucionais"
-            }
-        ],
-        "pneumonia": [
-            {
-                "title": "A Bacteria Pneumococo que causa a pneumonia em crianças, também pode causar Meningite.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":19,
-                "label":"Perguntas sobre Pneumonia"
-            },
-            {
-                "title": "Dia 12/11 foi celebrado o Dia Mundial do Combate à Pneumonia. Sabe-se que essa é uma doença grave que mata mais de 400 pessoas por semana (considerando todos os tipos de pneumonia).",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":19,
-                "label":"Perguntas sobre Pneumonia"
-            },
-            {
-                "title": "A criança pode transmitir pneumonia bacteriana para o idoso.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":19,
-                "label":"Perguntas sobre Pneumonia"
-            },
-            {
-                "title": "Brasil é um dos únicos países da América Latina onde a Prevenar não faz parte do Programa Nacional de Imunização para Criança.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 0,
-                "points":19,
-                "label":"Perguntas sobre Pneumonia"
-            }
-        ],
-        "Meningo": [
-            {
-                "title": "A doença meningocócica pode ocorrer em qualquer idade.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":26,
-                "label":"Perguntas sobre Meningite"
-            },
-            {
-                "title": "Os adolescentes e jovens adultos são os maiores portadores da bactéria que causa a doença meningocócica.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":26,
-                "label":"Perguntas sobre Meningite"
-            },
-            {
-                "title": "A aplicação de doses de reforço aos 5 anos de idade e durante a adolescência são recomendadas pela Sociedade Brasileira de Pediatria.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":26,
-                "label":"Perguntas sobre Meningite"
-            },
-            {
-                "title": "A doença meningocócica causada pelo sorogrupo B é mais comum no Brasil?",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 0,
-                "points":26,
-                "label":"Perguntas sobre Meningite"
-            }
-        ],
-        "covid": [
-            {
-                "title": "Usar corretamente  máscaras adequadas reduzem as chances de pegar COVID-19, mas pode não impedir totalmente a transmissão do vírus.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 1,
-                "points":16,
-                "label":"Perguntas sobre COVID-19"
-            },
-            {
-                "title": "A imunidade conferida pela doença COVID-19 é tão alta quanto pela vacina, não sendo necessárias doses de reforços em quem já recebeu 2 doses e teve COVID-19.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 0,
-                "points":16,
-                "label":"Perguntas sobre COVID-19"
-            },
-            {
-                "title": "Crianças tem menos doença por COVID-19 do que adultos e não são impactadas por efeitos a longo prazo da doença.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 0,
-                "points":16,
-                "label":"Perguntas sobre COVID-19"
-            },
-            {
-                "title": "Sabemos que a proteção pela vacina original diminui ao longo do tempo e a resposta para variantes Ômicron em circulação é menor. Portanto, para aqueles que ainda não tomaram as doses de reforço, a melhor conduta é esperar que as vacinas bivalentes cheguem no Brasil.",
-                "options": [
-                    "MITO",
-                    "VERDADE"
-                ],
-                "correctOptionIndex": 0,
-                "points":16,
-                "label":"Perguntas sobre COVID-19"
-            }
-        ]
+      "title": "The current visual identity of Pfizer features a logo composed of two DNA helices spiraling upwards. The interconnected forms represent the passion and dedication to the science behind our solutions and the well-being of our patients, solidifying our commitment to innovation.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 36,
+      "label": "Institutional Questions"
+    },
+    {
+      "title": "Pfizer has been present in Brazil since 1955.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 0,
+      "points": 36,
+      "label": "Institutional Questions"
+    },
+    {
+      "title": "There are 8 therapeutic units in Pfizer Brazil.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 0,
+      "points": 36,
+      "label": "Institutional Questions"
+    },
+    {
+      "title": "The Bold Move 3.3 involves transforming how we engage with patients and physicians.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 36,
+      "label": "Institutional Questions"
+    },
+    {
+      "title": "Pfizer's values are: Courage, Joy, Excellence, and Equity.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 36,
+      "label": "Institutional Questions"
     }
+  ],
+  "pneumonia": [
+    {
+      "title": "The Pneumococcal Bacteria that causes pneumonia in children can also cause Meningitis.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 19,
+      "label": "Pneumonia Questions"
+    },
+    {
+      "title": "November 12th is celebrated as World Pneumonia Day. It is known to be a severe disease that kills more than 400 people per week (considering all types of pneumonia).",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 19,
+      "label": "Pneumonia Questions"
+    },
+    {
+      "title": "A child can transmit bacterial pneumonia to the elderly.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 19,
+      "label": "Pneumonia Questions"
+    },
+    {
+      "title": "Brazil is one of the few countries in Latin America where Prevenar is not part of the National Child Immunization Program.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 0,
+      "points": 19,
+      "label": "Pneumonia Questions"
+    }
+  ],
+  "Meningo": [
+    {
+      "title": "Meningococcal disease can occur at any age.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 26,
+      "label": "Meningitis Questions"
+    },
+    {
+      "title": "Adolescents and young adults are the major carriers of the bacteria that causes meningococcal disease.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 26,
+      "label": "Meningitis Questions"
+    },
+    {
+      "title": "The application of booster doses at the age of 5 and during adolescence is recommended by the Brazilian Pediatric Society.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 26,
+      "label": "Meningitis Questions"
+    },
+    {
+      "title": "Is meningococcal disease caused by serogroup B more common in Brazil?",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 0,
+      "points": 26,
+      "label": "Meningitis Questions"
+    }
+  ],
+  "covid": [
+    {
+      "title": "Properly using suitable masks reduces the chances of getting COVID-19 but may not completely prevent virus transmission.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 1,
+      "points": 16,
+      "label": "COVID-19 Questions"
+    },
+    {
+      "title": "The immunity conferred by COVID-19 disease is as high as that by the vaccine, and no booster doses are needed for those who have received 2 doses and had COVID-19.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 0,
+      "points": 16,
+      "label": "COVID-19 Questions"
+    },
+    {
+      "title": "Children have fewer cases of COVID-19 than adults and are not affected by long-term effects of the disease.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 0,
+      "points": 16,
+      "label": "COVID-19 Questions"
+    },
+    {
+      "title": "We know that vaccine protection wanes over time, and the response to circulating Omicron variants is lower. Therefore, for those who have not received booster doses, the best approach is to wait for bivalent vaccines to arrive in Brazil.",
+      "options": ["MYTH", "TRUTH"],
+      "correctOptionIndex": 0,
+      "points": 16,
+      "label": "COVID-19 Questions"
+    }
+  ]
+}

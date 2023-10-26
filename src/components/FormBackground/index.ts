@@ -6,6 +6,10 @@ interface ContainerProps {
   activeImage?: Boolean
   rules?: Boolean
 }
+interface LoadingProps {
+  loading?: Boolean
+}
+
 interface ButtonProps {
   time?: Boolean
 }
@@ -22,7 +26,7 @@ export const MainGrid = styled.main`
   /* background: black url('/bg.svg') no-repeat; */
 `
 
-export const HomeLogoContainer = styled.aside`
+export const HomeLogoContainer = styled.aside<LoadingProps>`
   grid-area: container;
   /* background-size: 100px 100%; */
   /* background: url('/azul.svg') no-repeat; */
@@ -52,8 +56,18 @@ export const HomeLogoContainer = styled.aside`
     top: 80%;
     left: 44%;
     cursor: pointer;
+
     svg {
-      margin-left: -142px;
+      ${props =>
+        props.loading &&
+        css`
+          margin-left: 98px;
+        `}
+      ${props =>
+        !props.loading &&
+        css`
+          margin-left: -137px;
+        `}
       margin-top: -66px;
       transform: scale(5);
     }
@@ -432,7 +446,7 @@ export const ContainerFormModal = styled.div<ContainerProps>`
     props.result
       ? css`
           padding-top: 5rem;
-          min-height: 1443px;
+          min-height: 100%;
           height: 10%;
         `
       : css`
@@ -544,9 +558,9 @@ export const ContainerFormModal = styled.div<ContainerProps>`
   .question .main .title p {
     color: #043673;
     text-align: center;
-    font: normal normal normal 50px Roboto;
+    font: normal normal normal 40px Roboto;
     letter-spacing: 0px;
-    margin-top: 20px;
+    margin-top: -10px;
   }
   .question .main .title {
     width: 611px;
@@ -694,13 +708,13 @@ export const ContainerRankingDiv = styled.div<ContainerProps>`
   }
   .ranking-title img:nth-of-type(1) {
     position: fixed;
-    top: 290px;
-    left: 330px;
+    top: 60px;
+    left: 862px;
   }
   .ranking-title img:nth-of-type(2) {
     position: fixed;
-    top: 370px;
-    left: 515px;
+    top: 147px;
+    left: 1042px;
   }
   .ranking-title span {
     width: 320px;
