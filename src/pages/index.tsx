@@ -1,10 +1,14 @@
 import React from "react"
 import type { NextPage } from "next"
-import { HomeLogoContainer, MainGrid } from "../components/FormBackground"
+import {
+  HomeLogoContainer,
+  MainGrid,
+  Spinner,
+} from "../components/FormBackground"
 import { useRouter } from "next/router"
-import { FaSpinner } from "react-icons/fa"
 import { BsHandIndexThumb } from "react-icons/bs"
 import styled from "styled-components"
+import { FaSpinner } from "react-icons/fa"
 
 const Home: NextPage = () => {
   const router = useRouter()
@@ -68,7 +72,7 @@ const Home: NextPage = () => {
         <div>
           {loading ? (
             <div>
-              <Spinner size={30} />
+              <Spinner size={30} color="#fff" />
             </div>
           ) : (
             <>
