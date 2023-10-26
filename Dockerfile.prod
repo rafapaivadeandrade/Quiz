@@ -7,12 +7,12 @@ WORKDIR /app
 
 COPY package*.json /app/
 
-RUN yarn install
+RUN npm install
 
 COPY . /app/
 
-RUN yarn build
+RUN npm run build
 
 EXPOSE 8080
 
-CMD ["yarn", "start"]
+CMD ["npm", "start"]
