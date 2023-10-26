@@ -8,7 +8,6 @@ import {
   FormButton,
 } from "../../components/FormBackground"
 import { useRouter } from "next/router"
-import { connect } from "../../lib/mongodb"
 import { FaSpinner } from "react-icons/fa"
 import styled from "styled-components"
 import { useUser } from "../../context/UserContext"
