@@ -2,9 +2,6 @@ import { createContext, ReactNode, useContext, useState } from "react"
 import toast from "react-hot-toast"
 import moment from "moment"
 import axios from "axios"
-import { useRouter } from "next/router"
-// import clientPromise from '../lib/mongodb';
-// import connect from '../lib/mongodb';
 
 type UserContextData = {
   register: (name: string, email: string, acceptTerms: string) => void
