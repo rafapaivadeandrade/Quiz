@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-
+import { FaSpinner } from "react-icons/fa"
 interface ContainerProps {
   result?: Boolean
   ranking?: Boolean
@@ -13,6 +13,18 @@ interface LoadingProps {
 interface ButtonProps {
   time?: Boolean
 }
+
+export const Spinner = styled(FaSpinner)`
+  @keyframes rubbishflow {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  animation: rubbishflow infinite 2s linear;
+`
 
 export const MainGrid = styled.main`
   width: 100vw;

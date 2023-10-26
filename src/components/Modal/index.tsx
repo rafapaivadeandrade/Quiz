@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import * as S from "./styles"
-import { FormContainer, FormButton } from "../FormBackground"
+import { FormContainer, FormButton, Spinner } from "../FormBackground"
 import { Form, Formik } from "formik"
 import CustomField from "../CustomField"
 import CheckboxTerms from "../CheckBoxTerms/CheckBoxInput"
@@ -23,21 +23,27 @@ interface CheckboxOption {
   label: string
 }
 
+// const Spinner = () => {
+//   return <FaSpinner size={50} color="#fff" />
+// }
+
+// const StyledSpinner = styled(Spinner)`
+//   @keyframes rubbishflow {
+//     0% {
+//       transform: rotate(0deg);
+//     }
+//     100% {
+//       transform: rotate(360deg);
+//     }
+//   }
+//   animation: rubbishflow infinite 2s linear;
+// `
+
 export const Modal = ({ closeModal }: any) => {
   const { register, loading, setLoading } = useUser()
   const router = useRouter()
   const [seconds, setSeconds] = useState(0)
-  const Spinner = styled(FaSpinner)`
-    @keyframes rubbishflow {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-    animation: rubbishflow infinite 2s linear;
-  `
+
   let time: string | number | NodeJS.Timeout | undefined
   const handleOutsideClick = (e: any) => {
     if (e.target.id === "modalDashboard") closeModal()
