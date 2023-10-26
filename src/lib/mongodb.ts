@@ -1,39 +1,39 @@
-const MongoClient = require("mongodb").MongoClient;
+// const MongoClient = require("mongodb").MongoClient;
 
-const uri = process.env.MONGODB_URI;
-const dbName = process.env.MONGODB_NAME;
+// const uri = process.env.MONGODB_URI;
+// const dbName = process.env.MONGODB_NAME;
 
-let cachedDB: any;
-let cachedClient: any;
+// let cachedDB: any;
+// let cachedClient: any;
 
-if (!uri)
-{
-  throw new Error("Please define the MONGODB_URI environment variable inside .env.local")
-}
+// if (!uri)
+// {
+//   throw new Error("Please define the MONGODB_URI environment variable inside .env.local")
+// }
 
-if (!dbName)
-{
-  throw new Error("Please define the MONGODB_DB environment variable inside .env.local")
-}
+// if (!dbName)
+// {
+//   throw new Error("Please define the MONGODB_DB environment variable inside .env.local")
+// }
 
-export async function connect()
-{
-  if (cachedClient && cachedDB)
-  {
-    return { client: cachedClient, db: cachedDB }
-  }
+// export async function connect()
+// {
+//   if (cachedClient && cachedDB)
+//   {
+//     return { client: cachedClient, db: cachedDB }
+//   }
 
-  const client = await MongoClient.connect(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  })
+//   const client = await MongoClient.connect(uri, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true
+//   })
 
-  const db = await client.db(dbName)
+//   const db = await client.db(dbName)
 
-  cachedClient = client;
-  cachedDB = db;
+//   cachedClient = client;
+//   cachedDB = db;
 
-  return { client, db }
-}
+//   return { client, db }
+// }
 
-export default connect;
+// export default connect;
