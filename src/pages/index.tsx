@@ -7,8 +7,6 @@ import {
 } from "../components/FormBackground"
 import { useRouter } from "next/router"
 import { BsHandIndexThumb } from "react-icons/bs"
-import styled from "styled-components"
-import { FaSpinner } from "react-icons/fa"
 
 const Home: NextPage = () => {
   const router = useRouter()
@@ -22,17 +20,6 @@ const Home: NextPage = () => {
   //   "/KV_Aprovado.png"
   // ];
 
-  const Spinner = styled(FaSpinner)`
-    @keyframes rubbishflow {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-    animation: rubbishflow infinite 2s linear;
-  `
   function handleActiveModal() {
     setShowModal(true)
   }
