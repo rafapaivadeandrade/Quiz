@@ -6,9 +6,9 @@ import {
   FormBackground,
   ContainerRankingDiv,
   FormButton,
+  Spinner,
 } from "../../components/FormBackground"
 import { useRouter } from "next/router"
-import { FaSpinner } from "react-icons/fa"
 import styled from "styled-components"
 import { useUser } from "../../context/UserContext"
 import { prisma } from "../../lib/prisma"
@@ -16,17 +16,6 @@ import { prisma } from "../../lib/prisma"
 export default function Ranking(props: any) {
   const router = useRouter()
   const { loading, setLoading, getUsers } = useUser()
-  const Spinner = styled(FaSpinner)`
-    @keyframes rubbishflow {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-    animation: rubbishflow infinite 2s linear;
-  `
 
   useEffect(() => {
     const id = setTimeout(() => {

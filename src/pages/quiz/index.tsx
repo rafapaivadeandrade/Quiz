@@ -4,6 +4,7 @@ import {
   ContainerFormModal,
   FormBackgroundQuiz,
   ThankYouDiv,
+  Spinner,
 } from "../../components/FormBackground"
 import { Toaster } from "react-hot-toast"
 import { useRouter } from "next/router"
@@ -12,8 +13,6 @@ import QuestionList from "../../data/questions.json"
 import Question from "../../components/Question"
 import moment from "moment"
 import { ContainerModal } from "../../components/Modal/styles"
-import { FaSpinner } from "react-icons/fa"
-import styled from "styled-components"
 
 export default function Quiz(props: any) {
   const router = useRouter()
@@ -25,17 +24,6 @@ export default function Quiz(props: any) {
   const isQuestionEnd = currentQuestionIndex === props.shuffled2.length
   const [durationTemp, setDuration] = useState<number>()
   const [points, setPoints] = useState<number>(0)
-  const Spinner = styled(FaSpinner)`
-    @keyframes rubbishflow {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-    animation: rubbishflow infinite 2s linear;
-  `
 
   useEffect(() => {
     const saveFinalData = async () => {

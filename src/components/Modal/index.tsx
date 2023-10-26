@@ -8,8 +8,6 @@ import * as Yup from "yup"
 import { useRouter } from "next/router"
 import { useUser } from "../../context/UserContext"
 import toast from "react-hot-toast"
-import { FaSpinner } from "react-icons/fa"
-import styled from "styled-components"
 
 interface SignInFormData {
   name: string
