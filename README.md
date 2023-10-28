@@ -126,4 +126,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
   
 
-This project is under the MIT license. See the [LICENSE]([https://github.com/rafapaivadeandrade/Professors/blob/master/LICENSE.md](https://github.com/rafapaivadeandrade/Professors/blob/master/LICENSE.md)) for more information.
+This project is under the MIT license. See the [LICENSE]([https://github.com/rafapaivadeandrade/Quiz/blob/master/LICENSE.md](https://github.com/rafapaivadeandrade/Quiz/blob/master/LICENSE.md)) for more information.
