@@ -1,34 +1,129 @@
+<h3  align="center">
+
+✅ Quiz ❌
+
+</h3>
+
+## ℹ️ About
+  
+
+<div  align="center">
+
+
+<p  align="center">
+
+Quiz is a web application where the user can register its profile form data to do a quiz.
+
+</p>
+
+</div>
+  
+
+## 👁 Preview
+
+
+The web application is responsible for having registered the users for the quiz users ranking.<br/><br/><br/>
+ 
+![ezgif-1-aeb51c0b47](https://github.com/rafapaivadeandrade/Quiz/assets/51189721/4ea6056c-6d24-4a68-a52a-1c137277cc83)
+![ezgif-1-aa158860e3](https://github.com/rafapaivadeandrade/Quiz/assets/51189721/f939ab7c-25c2-4d55-b051-409f43bae413)
+![ezgif-1-b120dddc69](https://github.com/rafapaivadeandrade/Quiz/assets/51189721/aa94a2cb-6289-4bbf-bf77-fb23bbed26c4)
+
+<br/>
+
+ 
+</div>
+
+  ## Features
+  
+- [x] **Register User**: You can register your profile data in the form to start the quiz;
+- [x] **List Users Ranking by points**: You are able to see all the users that took the quiz;
+
+
+## 🖥 Technologies
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+  
+The project was developed with the following technologies:
 
-## Getting Started
+<details>
 
-First, run the development server:
+<summary>Backend</summary>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Prisma](https://www.prisma.io/)
+  
+- [Zod](https://www.npmjs.com/package/zod)
+  
+</details>
+
+
+<details>
+
+<summary>Frontend</summary>
+
+  
+
+- [Axios](https://www.npmjs.com/package/axios)
+
+- [Formik](https://www.npmjs.com/package/formkit)
+
+- [Moment](https://momentjs.com/)
+
+- [NextJS](https://nextjs.org/)
+
+- [Next Connect](https://www.npmjs.com/package/next-connect)
+
+- [NextFont](https://www.npmjs.com/package/@next/font)
+
+- [React Circular Progress Bar](https://www.npmjs.com/package/react-circular-progressbar)
+
+- [React DOM](https://pt-br.reactjs.org/docs/react-dom.html)
+
+- [React Hot Toast](https://react-hot-toast.com/)
+
+- [React Icons](https://react-icons.github.io/react-icons)
+
+- [Unform](https://github.com/unform/unform)
+
+- [Yup](https://github.com/jquense/yup)
+  
+- [Zod](https://www.npmjs.com/package/zod)
+  
+</details>
+
+## 🚀 Getting started
+
+  
+
+First of all you need to have `node` and `yarn`(or `npm`) installed on your machine.
+
+  
+
+_If you decide to use npm don't forget to delete yarn.lock in folders_
+
+  
+
+Then you can clone the repository.
+
+  
+
+`git clone https:https://github.com/rafapaivadeandrade/Quiz`
+
+
+Now starting the aplication.
+
+  
+
+1. `cd quiz`
+
+2. `yarn` or `npm install`
+
+3. `yarn dev` or `npm run dev`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  
+## 📝 License
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+  
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is under the MIT license. See the [LICENSE]([https://github.com/rafapaivadeandrade/Quiz/blob/master/LICENSE.md](https://github.com/rafapaivadeandrade/Quiz/blob/master/LICENSE.md)) for more information.
