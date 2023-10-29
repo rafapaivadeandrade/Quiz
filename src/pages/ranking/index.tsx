@@ -9,7 +9,6 @@ import {
   Spinner,
 } from "../../components/FormBackground"
 import { useRouter } from "next/router"
-import styled from "styled-components"
 import { useUser } from "../../context/UserContext"
 import { prisma } from "../../lib/prisma"
 
